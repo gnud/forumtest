@@ -4,8 +4,8 @@
 An attempt to revolutionise the forum platform.
 
 ## Technologies
-Node.js
-NOSQL database, maybe mongodb
+* Node.js
+* NOSQL database, maybe mongodb
 
 ## Platform Plans
 * Forum alike system - categories, posts, answers, search
@@ -16,6 +16,13 @@ the page from ground up if needed
 * Each section of the platform will be splited in several apps, based on a feature
 * Mobile ready
 * Advanced search engine using FTS (full text search)
+
+## Interfaces
+* Web
+* Mobile
+* Desktop
+* Cli (curses library maybe, GNU/Linux / MacOS only)
+* Command line tool
 
 ## Reason for the project
 Because I'm felling bored :P.
