@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<ul>
+    <% for(var i=0; i < msg.result.length; i++) { %>
+    <li>
+        <p><%= msg.result[i].id %></p>
+        <p><%= msg.result[i].postTitle %></p>
+        <p><%= msg.result[i].postContent %></p>
+    </li>
+    <% } %>
+</ul>
+</body>
+</html>

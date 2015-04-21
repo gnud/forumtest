@@ -24,5 +24,21 @@ the page from ground up if needed
 * Cli (curses library maybe, GNU/Linux / MacOS only)
 * Command line tool
 
+## Development
+### Ubuntu
+In the root directory of the project:
+mkdir data # For primary server
+mkdir data2 # For sharding server1
+mkdir dataconfig # For sharding config server
+
+Note, that the database directory location will change.
+
+install mongodb ...
+
+Single database (without horizontal scaling):
+cd {to the root of the project}
+mongod --dbpath data --port 9999
+
+
 ## Reason for the project
 Because I'm felling bored :P.
